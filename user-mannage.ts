@@ -27,6 +27,7 @@ app.get('/users/:id', (req, res) => {
     res.json(user);
 });
 
+
 //创建一个新的用户
 app.post('/users', (req, res) => {
     const {name, age} = req.body;
